@@ -1,30 +1,52 @@
-# CosmoKaraoke — sito ufficiale
+<div align="center">
+  <img src="assets/cosmonet-mascot.png" alt="Mascotte CosmoNet" width="132" />
+  <h1>CosmoKaraoke · Sito ufficiale</h1>
+  <p>La regia delle tue serate karaoke.</p>
+  <p>
+    <a href="https://cosmonetinfo.github.io/CosmoKaraoke-Site/">Apri il sito</a> ·
+    <a href="https://cosmonetinfo.github.io/CosmoKaraoke-Site/guida.html">Leggi la guida</a> ·
+    <a href="https://github.com/CosmoNetinfo/CosmoKaraoke/releases/latest">Scarica l'app</a>
+  </p>
+</div>
 
-Sito statico in italiano per presentare CosmoKaraoke e consultare la guida utente. È pubblicabile direttamente da GitHub Pages e non richiede un framework o una procedura di compilazione.
+## Il progetto
 
-## Pagine
+Questo repository contiene il sito statico di presentazione di CosmoKaraoke, applicazione desktop per organizzare una serata karaoke. La pagina presenta le funzioni disponibili e usa schermate catturate dall'app reale; la guida online descrive installazione, libreria musicale, scaletta, audio, schermo TV e Live.
 
-- `index.html` — presentazione dell'app, funzioni, schermate reali, link alle release.
-- `guida.html` — guida utente consultabile sul sito.
-- `assets/` — schermate dell'app e mascotte CosmoNet.
+![Schermata reale della libreria e del pannello di regia di CosmoKaraoke](assets/regia-libreria.png)
 
-Le schermate sono catture dell'applicazione reale. La guida descrive la versione 0.4.5; dopo nuove release vanno ricontrollate e aggiornate insieme alle note di versione.
+## Pagine del sito
 
-## Pubblicazione
+- **Presentazione:** [index.html](index.html) — panoramica dell'app, funzioni e collegamenti alle release.
+- **Guida utente:** [guida.html](guida.html) — istruzioni operative e risoluzione dei problemi.
+- **Stili:** [styles.css](styles.css) — layout responsive condiviso dalle pagine.
+- **Immagini:** [assets/](assets/) — mascotte CosmoNet e schermate reali dell'app.
 
-In GitHub apri **Settings → Pages**, scegli **Deploy from a branch**, seleziona `main` e la cartella `/(root)`, quindi salva. Il sito viene pubblicato su:
+La guida è riferita a CosmoKaraoke **0.4.5**. Dopo ogni nuova versione è necessario rivedere istruzioni, schermate e funzioni descritte.
 
-`https://cosmonetinfo.github.io/CosmoKaraoke-Site/`
+## Aprire il sito in locale
 
-## Aggiornare il sito
+È un sito statico: non servono dipendenze o compilazione. Apri `index.html` nel browser per la presentazione e `guida.html` per la guida.
 
-1. Modifica `index.html`, `guida.html` e `styles.css`.
-2. Metti in `assets/` solo immagini utilizzabili pubblicamente; evita QR o indirizzi Live attivi della rete locale.
-3. Verifica i link e visualizza entrambe le pagine da computer e telefono.
-4. Fai commit e push su `main`; GitHub Pages pubblica la versione aggiornata.
+## Pubblicazione con GitHub Pages
 
-## Progetto
+La repository è configurata per pubblicare la cartella principale di `main` con GitHub Pages. Se devi configurarla di nuovo:
+
+1. Apri **Settings → Pages**.
+2. In **Build and deployment**, scegli **Deploy from a branch**.
+3. Seleziona `main` e `/(root)`, quindi salva.
+
+Dopo il push, GitHub Pages aggiorna il sito su [cosmonetinfo.github.io/CosmoKaraoke-Site](https://cosmonetinfo.github.io/CosmoKaraoke-Site/).
+
+## Aggiornare contenuti e immagini
+
+1. Aggiorna `index.html` per la presentazione o `guida.html` per le istruzioni.
+2. Salva in `assets/` solo immagini autorizzate alla pubblicazione. Per schermate Live dimostrative, non includere QR o indirizzi attivi della rete locale.
+3. Aggiorna questo README se cambiano le pagine o la versione descritta.
+4. Invia le modifiche su `main`; GitHub Pages pubblica la nuova versione.
+
+## Collegamenti
 
 - [Repository dell'app](https://github.com/CosmoNetinfo/CosmoKaraoke)
 - [Release e download](https://github.com/CosmoNetinfo/CosmoKaraoke/releases/latest)
-- [Segnalazione problemi](https://github.com/CosmoNetinfo/CosmoKaraoke/issues)
+- [Segnala un problema](https://github.com/CosmoNetinfo/CosmoKaraoke/issues)
