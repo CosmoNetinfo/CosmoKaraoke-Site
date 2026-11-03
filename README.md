@@ -6,6 +6,7 @@
     <a href="https://cosmonetinfo.github.io/CosmoKaraoke-Site/">Apri il sito</a> ·
     <a href="https://cosmonetinfo.github.io/CosmoKaraoke-Site/guida.html">Leggi la guida</a> ·
     <a href="https://cosmonetinfo.github.io/CosmoKaraoke-Site/feedback.html">Partecipa</a> ·
+    <a href="https://github.com/CosmoNetinfo/CosmoKaraoke/discussions">Forum</a> ·
     <a href="https://cosmonetinfo.github.io/CosmoKaraoke-Site/download.html">Scarica l'app</a>
   </p>
 </div>
