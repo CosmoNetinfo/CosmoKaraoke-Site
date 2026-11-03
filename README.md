@@ -5,7 +5,8 @@
   <p>
     <a href="https://cosmonetinfo.github.io/CosmoKaraoke-Site/">Apri il sito</a> ·
     <a href="https://cosmonetinfo.github.io/CosmoKaraoke-Site/guida.html">Leggi la guida</a> ·
-    <a href="https://github.com/CosmoNetinfo/CosmoKaraoke/releases/latest">Scarica l'app</a>
+    <a href="https://cosmonetinfo.github.io/CosmoKaraoke-Site/feedback.html">Partecipa</a> ·
+    <a href="https://cosmonetinfo.github.io/CosmoKaraoke-Site/download.html">Scarica l'app</a>
   </p>
 </div>
 
@@ -18,11 +19,13 @@ Questo repository contiene il sito statico di presentazione di CosmoKaraoke, app
 ## Pagine del sito
 
 - **Presentazione:** [index.html](index.html) — panoramica dell'app, funzioni e collegamenti alle release.
+- **Download:** [download.html](download.html) — rileva l'ultima release e collega direttamente all'installer Windows `.exe` e al pacchetto macOS `.dmg`.
 - **Guida utente:** [guida.html](guida.html) — istruzioni operative e risoluzione dei problemi.
-- **Stili:** [styles.css](styles.css) — layout responsive condiviso dalle pagine.
+- **Community:** [feedback.html](feedback.html) — moduli guidati per problemi, miglioramenti e funzioni nuove.
+- **Stili e script:** `styles.css`, `download.css`, `download.js`, `community.css` — layout responsive e selezione dinamica dei pacchetti.
 - **Immagini:** [assets/](assets/) — mascotte CosmoNet e schermate reali dell'app.
 
-La guida è riferita a CosmoKaraoke **0.4.5**. Dopo ogni nuova versione è necessario rivedere istruzioni, schermate e funzioni descritte.
+La guida è riferita a CosmoKaraoke **0.4.5**. I link del download vengono letti automaticamente dalla release GitHub più recente; dopo ogni nuova versione è comunque necessario rivedere le istruzioni e le schermate della guida.
 
 ## Aprire il sito in locale
 
@@ -40,7 +43,7 @@ Dopo il push, GitHub Pages aggiorna il sito su [cosmonetinfo.github.io/CosmoKara
 
 ## Aggiornare contenuti e immagini
 
-1. Aggiorna `index.html` per la presentazione o `guida.html` per le istruzioni.
+1. Aggiorna `index.html` per la presentazione, `download.html`/`download.js` per il download o `guida.html` per le istruzioni.
 2. Salva in `assets/` solo immagini autorizzate alla pubblicazione. Per schermate Live dimostrative, non includere QR o indirizzi attivi della rete locale.
 3. Aggiorna questo README se cambiano le pagine o la versione descritta.
 4. Invia le modifiche su `main`; GitHub Pages pubblica la nuova versione.

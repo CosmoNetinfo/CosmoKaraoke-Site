@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#101b2b" />
+    <meta name="description" content="Scarica CosmoKaraoke per Windows o macOS. La pagina seleziona automaticamente i pacchetti dell'ultima versione disponibile." />
+    <title>Download CosmoKaraoke per Windows e macOS</title>
+    <link rel="icon" href="./assets/cosmonet-mascot.png" type="image/png" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./download.css" />
+    <script src="./download.js" defer></script>
+  </head>
+  <body class="download-page">
+    <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+    <header class="site-header"><a class="brand" href="./index.html"><img src="./assets/cosmonet-mascot.png" alt="" /><span>Cosmo<span>Karaoke</span><small>di CosmoNet</small></span></a><nav aria-label="Navigazione principale"><a href="./index.html#funzioni">Funzioni</a><a href="./guida.html">Guida</a><a href="./feedback.html">Partecipa</a><a class="nav-download" href="./download.html" aria-current="page">Download</a></nav></header>
+    <main id="contenuto">
+      <section class="download-hero"><div class="section-wrap"><p class="eyebrow"><span></span> SCARICA L'ULTIMA VERSIONE</p><h1>La tua regia,<br /><em>pronta a partire.</em></h1><p>Scegli il tuo computer. I pulsanti qui sotto puntano automaticamente ai pacchetti dell'ultima release ufficiale di CosmoKaraoke.</p><div class="release-status" role="status" aria-live="polite"><span class="status-dot"></span><span id="release-status-text">Controllo la versione disponibile…</span></div></div></section>
+
+      <section class="section-wrap download-options" aria-label="Scegli il tuo sistema operativo">
+        <article class="download-card" id="windows-card">
+          <div class="download-card-heading"><span class="os-icon windows-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M2 5.6 14 4v11H2V5.6Zm14-1.8 14-2v17H16V3.8ZM2 17h12v11L2 26.4V17Zm14 0h14v17l-14-2V17Z"/></svg></span><div><p class="card-eyebrow">PER PC</p><h2>Windows</h2></div></div>
+          <p class="download-description">Installer `.exe` per Windows 10 e 11, computer a 64 bit.</p>
+          <a class="download-button" id="windows-download" href="https://github.com/CosmoNetinfo/CosmoKaraoke/releases/latest" aria-describedby="windows-file"><span>Scarica per Windows</span><span aria-hidden="true">↓</span></a>
+          <p class="file-meta" id="windows-file">Pacchetto: caricamento…</p>
+          <details class="install-details"><summary>Come installare</summary><ol><li>Scarica il file `.exe` dal pulsante.</li><li>Aprilo e segui i passaggi dell'installazione.</li><li>Avvia CosmoKaraoke dal menu Start o dal collegamento creato.</li></ol><p>Il pacchetto attuale non è firmato con un certificato di distribuzione; Windows potrebbe mostrare un avviso. Controlla che il download provenga dalla release ufficiale prima di installarlo.</p></details>
+        </article>
+        <article class="download-card" id="mac-card">
+          <div class="download-card-heading"><span class="os-icon apple-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M22.8 17.1c0-3 2.5-4.4 2.6-4.5-1.4-2-3.6-2.3-4.4-2.4-1.9-.2-3.7 1.1-4.7 1.1s-2.5-1.1-4.1-1c-2.1 0-4 1.2-5.1 3-2.2 3.8-.6 9.3 1.6 12.3 1.1 1.5 2.3 3.1 3.9 3 1.6-.1 2.2-1 4.1-1s2.5 1 4.2 1c1.7 0 2.7-1.5 3.8-3.1 1.2-1.7 1.7-3.4 1.7-3.5-.1 0-3.5-1.3-3.5-4.9ZM19.7 8.2c.8-1 1.4-2.5 1.2-4-1.2.1-2.8.8-3.7 1.8-.8.9-1.5 2.4-1.3 3.8 1.4.1 2.9-.6 3.8-1.6Z"/></svg></span><div><p class="card-eyebrow">PER MAC</p><h2>macOS</h2></div></div>
+          <p class="download-description">Pacchetto `.dmg` universale per Mac Intel e Apple Silicon.</p>
+          <a class="download-button" id="mac-download" href="https://github.com/CosmoNetinfo/CosmoKaraoke/releases/latest" aria-describedby="mac-file"><span>Scarica per macOS</span><span aria-hidden="true">↓</span></a>
+          <p class="file-meta" id="mac-file">Pacchetto: caricamento…</p>
+          <details class="install-details"><summary>Come installare</summary><ol><li>Scarica e apri il file `.dmg`.</li><li>Trascina CosmoKaraoke nella cartella Applicazioni.</li><li>Apri l'app da Applicazioni.</li></ol><p>La versione attuale non è firmata e notarizzata con un certificato Apple. macOS potrebbe mostrare un avviso di sicurezza. Scarica solo dal collegamento ufficiale; non disattivare le protezioni se non sei sicuro della provenienza.</p></details>
+        </article>
+      </section>
+
+      <section class="download-release section-wrap"><div><p class="eyebrow"><span></span> DETTAGLI DEL RILASCIO</p><h2 id="release-title">CosmoKaraoke</h2><p id="release-date">Versione e data saranno mostrate qui.</p><a id="release-notes" href="https://github.com/CosmoNetinfo/CosmoKaraoke/releases/latest">Leggi tutte le note di rilascio ↗</a></div><img src="./assets/cosmonet-mascot.png" alt="Mascotte CosmoNet" loading="lazy" /></section>
+
+      <section class="download-help"><div class="section-wrap"><div><h2>Serve una mano?</h2><p>Consulta la guida d'installazione o inviaci una segnalazione se qualcosa non va.</p></div><div><a class="button secondary" href="./guida.html#primo-avvio">Apri la guida</a><a class="button secondary" href="./feedback.html">Chiedi aiuto</a></div></div></section>
+    </main>
+    <footer class="site-footer"><div class="footer-top"><a class="brand" href="./index.html"><img src="./assets/cosmonet-mascot.png" alt="" /><span>Cosmo<span>Karaoke</span><small>di CosmoNet</small></span></a><p>Pacchetti ufficiali per Windows e macOS.</p><nav aria-label="Collegamenti"><a href="./index.html">Presentazione</a><a href="./guida.html">Guida</a><a href="./feedback.html">Partecipa</a><a href="https://github.com/CosmoNetinfo/CosmoKaraoke">Repository</a></nav></div><div class="footer-bottom"><span>© CosmoNet · CosmoKaraoke</span><span>Progetto per uso personale</span></div></footer>
+  </body>
+</html>
