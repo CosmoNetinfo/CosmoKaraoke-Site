@@ -1,17 +1,30 @@
-# Sito CosmoKaraoke
+# CosmoKaraoke — sito ufficiale
 
-Pagina statica in italiano per presentare CosmoKaraoke. Non richiede framework, compilazione o servizi esterni: GitHub Pages può pubblicare direttamente i file della cartella.
+Sito statico in italiano per presentare CosmoKaraoke e consultare la guida utente. È pubblicabile direttamente da GitHub Pages e non richiede un framework o una procedura di compilazione.
 
-## Pubblicazione su GitHub Pages
+## Pagine
 
-1. Crea una repository pubblica chiamata `CosmoKaraoke-Site`.
-2. Carica qui i file nella radice della repository.
-3. In GitHub apri **Settings → Pages**.
-4. In **Build and deployment**, scegli **Deploy from a branch**, seleziona `main` e la cartella `/(root)`, quindi salva.
-5. GitHub pubblicherà il sito all'indirizzo `https://cosmonetinfo.github.io/CosmoKaraoke-Site/`.
+- `index.html` — presentazione dell'app, funzioni, schermate reali, link alle release.
+- `guida.html` — guida utente consultabile sul sito.
+- `assets/` — schermate dell'app e mascotte CosmoNet.
 
-I collegamenti per download, codice e segnalazioni puntano alla repository dell'app. Il pulsante Download apre le release disponibili; non presume che la `0.4.0` sia già pubblicata.
+Le schermate sono catture dell'applicazione reale. La guida descrive la versione 0.4.5; dopo nuove release vanno ricontrollate e aggiornate insieme alle note di versione.
 
-## Anteprima locale
+## Pubblicazione
 
-Apri `index.html` con un browser: la pagina non ha passaggi di compilazione. Prima di pubblicare, controlla i collegamenti e apri la pagina sia da computer sia da telefono.
+In GitHub apri **Settings → Pages**, scegli **Deploy from a branch**, seleziona `main` e la cartella `/(root)`, quindi salva. Il sito viene pubblicato su:
+
+`https://cosmonetinfo.github.io/CosmoKaraoke-Site/`
+
+## Aggiornare il sito
+
+1. Modifica `index.html`, `guida.html` e `styles.css`.
+2. Metti in `assets/` solo immagini utilizzabili pubblicamente; evita QR o indirizzi Live attivi della rete locale.
+3. Verifica i link e visualizza entrambe le pagine da computer e telefono.
+4. Fai commit e push su `main`; GitHub Pages pubblica la versione aggiornata.
+
+## Progetto
+
+- [Repository dell'app](https://github.com/CosmoNetinfo/CosmoKaraoke)
+- [Release e download](https://github.com/CosmoNetinfo/CosmoKaraoke/releases/latest)
+- [Segnalazione problemi](https://github.com/CosmoNetinfo/CosmoKaraoke/issues)
